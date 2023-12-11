@@ -1,0 +1,39 @@
+.container-fluid{
+    background-color: black;
+    color: #b7b7b7;
+}
+.branding{
+    font-family: 'Playfair Display', serif;
+    font-size: 38px;
+    letter-spacing: 7px;
+    padding-top: 27px;
+    margin-bottom: 0px;
+}
+.brandsub{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    word-spacing: 3px;
+    letter-spacing: 5px;
+    padding-bottom: 60px;
+}
+.navbar-menu{
+    justify-content: center;
+}
+.branding:hover{
+    color: red;
+}
+.ftr-link{
+     color: white;
+    text-decoration: none;
+}
+.ftr-link:hover{
+    color: red;
+    text-decoration: underline;
+}
+.p-3{
+    cursor: pointer;
+}
+.nav-item .nav-link.active,
+.nav-item .nav-link:hover { 
+  color: red !important;
+}
